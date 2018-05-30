@@ -22,6 +22,12 @@ checkout = git clone git@github.com:bisq-network/design.git design
 [desktop]
 checkout = git clone git@github.com:bisq-network/bisq-desktop desktop
 
+[grpc]
+checkout = git clone git@github.com:bisq-network/bisq-grpc grpc
+
+[http-api]
+checkout = git clone git@github.com:bisq-network/bisq-http-api http-api
+
 [docs]
 checkout = git clone git@github.com:bisq-network/bisq-docs.git docs
 

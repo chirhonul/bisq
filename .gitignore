@@ -19,8 +19,8 @@ btcnode
 common
 core
 dao
-grpc
 http-api
+grpc
 design
 desktop
 docs
