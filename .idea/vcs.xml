@@ -13,6 +13,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/assets" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/common" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/grpc" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/desktop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/monitor" vcs="Git" />
