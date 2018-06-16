@@ -4,6 +4,8 @@ rootProject.name = 'bisq'
  'assets',
  'p2p',
  'core',
+ 'grpc',
+ 'http-api',
  'desktop',
  'monitor',
  'pricenode',
