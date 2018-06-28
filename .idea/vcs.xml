@@ -17,10 +17,8 @@
     <mapping directory="$PROJECT_DIR$/core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/desktop" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/grpc" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/http-api" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/monitor" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/p2p" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/pricenode" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/seednode" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/statsnode" vcs="Git" />
   </component>
