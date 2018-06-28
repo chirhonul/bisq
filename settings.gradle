@@ -5,7 +5,6 @@ rootProject.name = 'bisq'
  'p2p',
  'core',
  'grpc',
- 'http-api',
  'desktop',
  'monitor',
  'seednode',
