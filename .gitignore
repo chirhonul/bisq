@@ -32,3 +32,5 @@ pricenode
 seednode
 statsnode
 website
+relay
+grpc
