@@ -3,7 +3,6 @@ rootProject.name = 'bisq'
 ['common',
  'p2p',
  'core',
- 'grpc',
  'desktop',
  'seednode',
 ].each { repo -> if (file(repo).directory) includeBuild(repo) }
