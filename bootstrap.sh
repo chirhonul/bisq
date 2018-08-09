@@ -119,6 +119,10 @@ clone_repo() {
   repo=${1}
   dir=${2}
   branch=${3}
+  [ -d ${dir} ] && {
+    echo "Already have repo ${repo} present as ${dir}, continuing.."
+    return 0
+  }
   echo "Cloning ${repo} as ${dir}.."
   git clone https://github.com/${REPO_USER}/${repo} ${dir}
   cd ${dir}
@@ -126,6 +130,7 @@ clone_repo() {
   git remote add manfred https://github.com/manfredkarrer/${repo}
   git checkout ${branch}
   cd ..
+  return 0
 }
 
 install_bisq_env() {
