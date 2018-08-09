@@ -1,13 +1,24 @@
+#!/bin/bash
+#
+# Fetch the latest work in all repos.
+#
+# todo: seednode should maybe be included
+set -eu
 echo "Fetching root.."
 git fetch manfred && git merge manfred/voting
 git status
 git push
 echo
 
-# todo: seednode should maybe be included
-
 cd common
 echo "Fetching common.."
+git fetch manfred && git merge manfred/voting
+git status
+git push
+echo
+
+cd ../desktop
+echo "Fetching desktop.."
 git fetch manfred && git merge manfred/voting
 git status
 git push
