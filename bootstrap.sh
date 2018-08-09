@@ -146,6 +146,7 @@ install_bisq_env() {
   clone_repo bisq-p2p p2p voting
   clone_repo bisq-assets assets voting
   clone_repo bisq-desktop desktop voting
+  clone_repo bisq-seednode seednode voting
 
   fetch_binaries
 
