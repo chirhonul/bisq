@@ -121,9 +121,11 @@ clone_repo() {
   branch=${3}
   echo "Cloning ${repo} as ${dir}.."
   git clone https://github.com/${REPO_USER}/${repo} ${dir}
+  cd ${dir}
   git remote add upstream https://github.com/bisq-network/${repo}
   git remote add manfred https://github.com/manfredkarrer/${repo}
   git checkout ${branch}
+  cd ..
 }
 
 install_bisq_env() {
