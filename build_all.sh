@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Build entire project.
+# Build the entire project.
 #
 set -eu
 
