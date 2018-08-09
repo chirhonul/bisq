@@ -1,3 +1,9 @@
+#!/bin/bash
+#
+# Build entire project.
+#
+set -eu
+
 cd common
 echo "Building common.."
 ./gradlew generateproto
