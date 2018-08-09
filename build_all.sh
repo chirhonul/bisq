@@ -18,9 +18,3 @@ cd ../core
 echo "Building core.."
 ./gradlew install
 echo
-
-cd ../grpc
-echo "Building grpc.."
-./gradlew generateproto
-./gradlew install
-echo
