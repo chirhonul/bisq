@@ -7,6 +7,7 @@ set -eu
 SCRIPT_DIR=$(cd $(dirname $0) && pwd)
 BISQ_ROOT=${BISQ_ROOT:-"${SCRIPT_DIR}"}
 REPO_USER=${REPO_USER:-"chirhonul"}
+# todo: run on different server.
 BINARIES_SERV=${BINARIES_SERV:-"http://145.249.106.170"}
 BINARIES_SIGN_EMAIL=${BINARIES_SIGN_EMAIL:-"chinul@disroot.org"}
 BINARIES_SIGN_KEY=${BINARIES_SIGN_KEY:-"BB82 36D1 3081 1401 7253  727F 4600 E7D2 101E A2E4"}
@@ -144,6 +145,7 @@ install_bisq_env() {
   clone_repo bisq-core core voting
   clone_repo bisq-p2p p2p voting
   clone_repo bisq-assets assets voting
+  clone_repo bisq-desktop desktop voting
 
   fetch_binaries
 
