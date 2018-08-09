@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Builds the entire project.
+# Builds the entire bisq project.
 #
 set -eu
 
