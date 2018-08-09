@@ -11,6 +11,7 @@ build
 
 # Vim
 *.sw?
+*~
 
 # bisq components
 # (see .mrconfig)
