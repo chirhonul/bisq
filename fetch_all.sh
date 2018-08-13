@@ -2,7 +2,6 @@
 #
 # Fetch the latest work in all repos.
 #
-# todo: seednode should maybe be included
 set -eu
 echo "Fetching root.."
 git fetch manfred
@@ -45,6 +44,14 @@ echo
 
 cd ../core
 echo "Fetching core.."
+git fetch manfred
+git rebase manfred/voting
+git status
+git push
+echo
+
+cd ../seednode
+echo "Fetching seednode.."
 git fetch manfred
 git rebase manfred/voting
 git status
