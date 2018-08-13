@@ -4,6 +4,7 @@
 #
 set -eu
 echo "Fetching root.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
@@ -12,6 +13,7 @@ echo
 
 cd common
 echo "Fetching common.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
@@ -20,6 +22,7 @@ echo
 
 cd ../desktop
 echo "Fetching desktop.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
@@ -28,6 +31,7 @@ echo
 
 cd ../p2p
 echo "Fetching p2p.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
@@ -36,6 +40,7 @@ echo
 
 cd ../assets
 echo "Fetching assets.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
@@ -44,6 +49,7 @@ echo
 
 cd ../core
 echo "Fetching core.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
@@ -52,6 +58,7 @@ echo
 
 cd ../seednode
 echo "Fetching seednode.."
+git checkout voting
 git fetch manfred
 git rebase manfred/voting
 git status
