@@ -7,6 +7,8 @@ echo "Fetching root.."
 git checkout master
 git fetch upstream
 git rebase upstream/master
+git checkout chi-dev
+git rebase master
 git status
 git push
 echo
