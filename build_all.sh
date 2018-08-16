@@ -4,6 +4,8 @@
 #
 set -eu
 
+cd desktop
+
 cd common
 echo "Building common.."
 ./gradlew generateproto
