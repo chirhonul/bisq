@@ -1,3 +1,5 @@
+bisqnotes.txt
+
 #  Gradle
 .gradle
 build
@@ -11,6 +13,7 @@ build
 
 # Vim
 *.sw?
+*~
 
 # bisq components
 # (see .mrconfig)
@@ -19,6 +22,8 @@ btcnode
 common
 core
 dao
+http-api
+grpc
 design
 desktop
 docs
@@ -31,3 +36,4 @@ seednode
 statsnode
 website
 relay
+grpc
