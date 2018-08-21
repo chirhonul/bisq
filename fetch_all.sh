@@ -7,6 +7,7 @@ echo "Fetching root.."
 git checkout master
 git fetch upstream
 git rebase upstream/master
+git push
 git checkout chi-dev
 git rebase master
 git status
@@ -56,6 +57,7 @@ git fetch upstream
 git rebase upstream/master
 git status
 git push
+git checkout
 echo
 
 cd ../seednode
